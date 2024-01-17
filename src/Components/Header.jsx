@@ -1,17 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { GiSelfLove } from "react-icons/gi";
 
 const Header = () => {
   return (
     <div className='container'>
        <section className='flex justify-around items-center mt-[1rem] mb-[1rem]'>
-        <div>
-            <h1 className='font-bold text-[1.6rem]'>lovefoundation<i>l</i></h1>
+        <div className='flex space-x-1'>
+            <h1 className='font-bold text-[1.6rem] '>lovefoundation</h1>
+            <span className='font-bold text-[1.8rem]'><GiSelfLove /></span>
 
         </div>
 
         <div className='w-2/5'>
             <ul className='flex justify-between'>
-                <li>Home</li>
+                <li>Home </li>
                 <li>About us</li>
                 <li>Media</li>
                 <li>What we do</li>
