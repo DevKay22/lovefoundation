@@ -3,7 +3,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Events = () => {
   return (
-    <div className='container w-[80%] mx-auto mt-[4rem]  '>
+    <div className='container w-[80%] mx-auto mt-[3rem]  '>
         <div className='mb-[3rem]'>
             <h1 className='text-[1.7em] font-bold'>Our Events</h1>
         </div>
@@ -36,14 +36,14 @@ const Events = () => {
             <div className=' flex justify-between  w-[45%] bg-yellow-400 px-6 py-5 h-[8rem] 
             rounded-xl'>
                 <div className='w-[3.0em]'>
-                <h1 className='font-bold text-[1.8em] mb-2'>13</h1>
+                <h1 className='font-bold text-[1.8em] mb-2'>25</h1>
                 <p className='font-bold '>APR</p>
 
                 </div>
 
                 <div className='w-3/5 '>
                 <p className='mt-2'>NEXT EVENTS</p>
-                <h1 className='font-bold text-[1.1em]'>A day with our wonderful children</h1>
+                <h1 className='font-bold text-[1.1em]'>Seminar: Caring for children with autism</h1>
 
                 </div>
 
