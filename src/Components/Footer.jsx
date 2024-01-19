@@ -50,11 +50,12 @@ const Footer = () => {
             </h1>
 
             <div>
-                <input type="text" placeholder='Your email' className='py-3 px-[2.0em] mt-[2.5em]
+                <input type="email" placeholder='Your email' className='py-3 px-[2.0em] mt-[2.5em]
                  bg-black  border-[0.5px] border-gray-500 rounded-tl-md rounded-bl-md w-[19em]' />
 
                  {/* button */}
-                 <button className='bg-white text-[0.8rem] text-black py-3 pt-4 px-3 border-[0.5px] rounded-br-md rounded-tr-md font-medium'>Subscribe</button>
+                 <button className='bg-white text-[0.88rem] text-black py-3 pt-4 px-3 border-[0.5px] rounded-br-md rounded-tr-md
+                  font-bold'>Subscribe</button>
             </div>
 
         </div>
