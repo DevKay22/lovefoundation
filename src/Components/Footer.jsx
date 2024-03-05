@@ -3,6 +3,7 @@ import { GiSelfLove } from "react-icons/gi";
 
 const Footer = () => {
   return (
+    
     <div className='container bg-black text-white py-[4em] px-[8rem]'>
          <div className=' flex'>
             <div className='w-3/5 flex space-x-[3rem] '>
@@ -61,7 +62,10 @@ const Footer = () => {
         </div>
 
     </div>
+
+    
     </div>
+    
    
   )
 }

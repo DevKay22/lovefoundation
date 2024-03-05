@@ -1,5 +1,6 @@
 import React from 'react';
 import { GiSelfLove } from "react-icons/gi";
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -13,17 +14,17 @@ const Header = () => {
 
         <div className='w-2/5'>
             <ul className='flex justify-between'>
-                <li>Home </li>
-                <li>About us</li>
-                <li>Media</li>
-                <li>What we do</li>
-                <li>Contact</li>
+                <li><Link to='/'>Home </Link></li>
+                <li><Link to='/about-us'>About us</Link></li>
+                <li><Link to='/media'>Media</Link></li>
+                <li><Link to='/what-we-do'>What We Do</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
             </ul>
 
         </div>
 
-        <div>
-            <a href="#" className='px-4 bg-black text-white py-3 rounded-md'>Donate</a>
+        <div  className='px-4 bg-black text-white py-3 rounded-md'>
+            <button><Link to='/donate'>Donate</Link></button>
         </div>
 
        
