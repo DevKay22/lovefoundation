@@ -64,7 +64,7 @@ const Talk = () => {
                     </p>
                 </div>
             </div>
-            <div className='flex space-x-2 mx-auto'>
+            <div className='flex space-x-2 font-bold text-[1.2rem] mt-2'>
                         <div>
                         <IoLogoFacebook />
                         </div>
